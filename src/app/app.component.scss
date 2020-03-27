@@ -1,0 +1,16 @@
+// Case that not work
+
+.element1:focus,
+.element1:read-only {
+  background-color: red;
+}
+
+// Case expected, second block should be generated
+.element2:focus,
+.element2:read-only {
+  background-color: red;
+}
+.element2:focus,
+.element2:-moz-read-only {
+  background-color: red;
+}
