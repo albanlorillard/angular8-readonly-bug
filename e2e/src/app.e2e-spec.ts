@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('angular9-readonly-bug app is running!');
+    expect(page.getTitleText()).toEqual('angular8-readonly-bug app is running!');
   });
 
   afterEach(async () => {
